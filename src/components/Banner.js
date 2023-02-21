@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full Stack Developer", "Mobile App Developer", "Video Editor" ];
+  const toRotate = [ "Web Developer", "App Developer", "Video Editor" ];
   const period = 2000;
 
   useEffect(() => {
@@ -55,9 +55,12 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Kenny,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <span className="tagline">Hi, I'm Kenny!</span>
+                <h1>{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I love the idea of using software to design solutions and troubleshooting complex problems. 
+                  I believe in the power of programming to transform and build unique digital experiences. <br /> <br />
+                  As a Team player, and one who loves building new relationships, I enjoy working with other 
+                  professionals who are striving to achieve a common goal/result.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
@@ -66,7 +69,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" style={{width: "45vw", height: "45vw", marginTop: "-50px"}}/>
                 </div>}
             </TrackVisibility>
           </Col>
