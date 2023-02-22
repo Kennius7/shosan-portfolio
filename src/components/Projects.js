@@ -1,12 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard1 } from "./ProjectCard1";
 import { ProjectCard2 } from "./ProjectCard2";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/img/1.jpg";
-import projImg5 from "../assets/img/img/2.jpg";
-import projImg6 from "../assets/img/img/4.jpg";
+import projImg1 from "../assets/projectImages/Vampfi.jpg";
+import projImg2 from "../assets/projectImages/Globattle.jpg";
+import projImg3 from "../assets/projectImages/arcromride.jpg";
+import projImg4 from "../assets/projectImages/1.jpg";
+import projImg5 from "../assets/projectImages/2.jpg";
+import projImg6 from "../assets/projectImages/3.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -15,53 +15,23 @@ export const Projects = () => {
 
   const softwareProjects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Vamp Facility Intelligence Website",
+      description: "Front End Development and Design",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Glo Dance Battle Of The Year Website",
+      description: "Front End Development and Design",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Arcromride App",
+      description: "Mobile App Development",
       imgUrl: projImg3,
     },
   ];
 
   const contentProjects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg4,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg5,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg6,
-    },
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -133,7 +103,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Project listings coming soon.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
