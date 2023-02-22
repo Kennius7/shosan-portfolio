@@ -33,23 +33,39 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>These are some of my skills and competencies acquired over the years</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="pics" />
-                                <h5>Web Development</h5>
+                                <h5>React.JS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="pics" />
-                                <h5>Brand Identity</h5>
+                                <h5>Next.JS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="pics" />
-                                <h5>Logo Design</h5>
+                                <h5>React Native</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="pics" />
-                                <h5>Web Development</h5>
+                                <h5>Node.JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="pics" />
+                                <h5>Typescript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="pics" />
+                                <h5>Python</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="pics" />
+                                <h5>Adobe Premiere Pro</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="pics" />
+                                <h5>Adobe Photoshop</h5>
                             </div>
                         </Carousel>
                     </div>
