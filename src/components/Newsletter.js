@@ -23,19 +23,19 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   return (
       <Col lg={12}>
-        <div className="newsletter-bx wow slideInUp">
-          <Row>
-            <Col lg={12} md={6} xl={5} sm={12}>
+        <div className="btn btn-light w-100">
+          <Row className="d-flex align-items-center my-4">
+            <Col lg={12} md={6} xl={5} sm={12} className="my-4">
               <h3>Subscribe to our Newsletter<br></br> & never miss latest updates</h3>
               {status === 'sending' && <Alert>Sending...</Alert>}
               {status === 'error' && <Alert variant="danger">{message}</Alert>}
               {status === 'success' && <Alert variant="success">{message}</Alert>}
             </Col>
-            <Col lg={12} md={6} xl={5}>
+            <Col lg={12} md={6} xl={5} className="my-4">
               <form onSubmit={handleSubmit}>
-                <div className="justify-content-center">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
+                <div className="d-flex justify-content-between">
+                  <input className="rounded-2 border border-3 border-info w-75" value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
+                  <button type="submit" className="btn round-3 btn-info w-50 mx-2">Submit</button>
                 </div>
               </form>
             </Col>

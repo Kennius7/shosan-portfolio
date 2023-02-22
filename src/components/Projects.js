@@ -6,7 +6,7 @@ import projImg2 from "../assets/projectImages/Globattle.jpg";
 import projImg3 from "../assets/projectImages/arcromride.jpg";
 import projImg4 from "../assets/projectImages/1.jpg";
 import projImg5 from "../assets/projectImages/2.jpg";
-import projImg6 from "../assets/projectImages/3.jpg";
+import projImg6 from "../assets/projectImages/4.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -34,12 +34,12 @@ export const Projects = () => {
   const contentProjects = [
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Content creation and Digital Marketing",
       imgUrl: projImg4,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Content creation and Digital Marketing",
       imgUrl: projImg5,
     },
     {
